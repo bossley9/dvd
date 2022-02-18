@@ -1,3 +1,13 @@
 #include <stdio.h>
 
-int main() { printf("Hello world!\n"); }
+void print_dvd() {
+  printf(" ▀▀▀█   █▀▀▀▄\n");
+  printf(" █  ██▄█ █  █\n");
+  printf(" ▀▀▀▄▄█▄▄▀▀▀\n");
+  printf("▄███ █▀▀████▄\n");
+  printf(" ▀▀▀█████▀▀▀\n");
+}
+
+int main() { 
+  print_dvd();
+}
