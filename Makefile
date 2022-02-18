@@ -2,10 +2,12 @@ PREFIX = /usr/local
 BIN = $(PREFIX)/bin
 EXE = "dvd"
 
+CFLAGS += -Wall -Werror
+
 all: build
 
 build:
-	$(CC) -o ./$(EXE) main.c
+	$(CC) $(CFLAGS) -o ./$(EXE) main.c -lncurses
 
 clean:
 	rm -f ./$(EXE)

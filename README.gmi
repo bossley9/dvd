@@ -1,0 +1,27 @@
+# dvd
+
+dvd - an ncurses bouncing dvd logo in just 200 lines of C!
+
+I mostly made this because I was bored and wanted to learn the ncurses interface library.
+Feel free to fork off my code and modify it however you like.
+
+## Requirements
+
+* ncurses
+
+## Installation
+
+Installation is as simple as running the following commands (where $ denotes elevated privileges):
+
+```
+make
+$ make install
+```
+
+## Running
+
+Once installed, run the following command in a terminal:
+
+```
+dvd
+```
